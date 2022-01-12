@@ -28,6 +28,8 @@
 		2DEB7024278EDDDC001F8D89 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7023278EDDDC001F8D89 /* Portfolio.swift */; };
 		2DEB7027278EE036001F8D89 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7026278EE036001F8D89 /* AppModel.swift */; };
 		2DEB702C278EEBB2001F8D89 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB702B278EEBB2001F8D89 /* HeaderView.swift */; };
+		2DEB702F278EF9D6001F8D89 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB702E278EF9D6001F8D89 /* SkillView.swift */; };
+		2DEB7032278EFBFA001F8D89 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7031278EFBFA001F8D89 /* SkillsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		2DEB7023278EDDDC001F8D89 /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
 		2DEB7026278EE036001F8D89 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		2DEB702B278EEBB2001F8D89 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2DEB702E278EF9D6001F8D89 /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		2DEB7031278EFBFA001F8D89 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				2DEB702B278EEBB2001F8D89 /* HeaderView.swift */,
+				2DEB702E278EF9D6001F8D89 /* SkillView.swift */,
+				2DEB7031278EFBFA001F8D89 /* SkillsView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -283,8 +289,10 @@
 				2DEB7027278EE036001F8D89 /* AppModel.swift in Sources */,
 				2DEB7024278EDDDC001F8D89 /* Portfolio.swift in Sources */,
 				2DEB7014278ED947001F8D89 /* FontManager.swift in Sources */,
+				2DEB702F278EF9D6001F8D89 /* SkillView.swift in Sources */,
 				2DEB6FE3278ED036001F8D89 /* AppDelegate.swift in Sources */,
 				2DEB6FE5278ED036001F8D89 /* SceneDelegate.swift in Sources */,
+				2DEB7032278EFBFA001F8D89 /* SkillsView.swift in Sources */,
 				2DEB6FE7278ED036001F8D89 /* PortfolioView.swift in Sources */,
 				2DEB7010278ED8DC001F8D89 /* ColorExtensions.swift in Sources */,
 				2DEB702C278EEBB2001F8D89 /* HeaderView.swift in Sources */,
