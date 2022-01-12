@@ -45,6 +45,21 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    
+    <key>UIAppFonts</key>
+    <array>
+        <string>Montserrat-Thin.tff</string>
+        <string>Montserrat-ThinItalic.tff</string>
+        <string>Montserrat-Regular.tff</string>
+        <string>Montserrat-Italic.tff</string>
+        <string>Montserrat-Medium.tff</string>
+        <string>Montserrat-MediumItalic.tff</string>
+        <string>Montserrat-SemiBold.tff</string>
+        <string>Montserrat-SemiBoldItalic.tff</string>
+        <string>Montserrat-Bold.tff</string>
+        <string>Montserrat-BoldItalic.tff</string>
+    </array>
+        
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
