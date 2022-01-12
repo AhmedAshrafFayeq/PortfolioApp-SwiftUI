@@ -16,15 +16,21 @@ struct HeaderView: View {
     
     var body: some View {
         VStack{
-            Image("self").resizable().frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                .padding(5)
-                .background(
-                    Circle()
-                        .opacity(0.7)
-                        .shadow(radius: 5)
+            HStack {
+                Spacer()
+                Image("self").resizable().frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .padding(5)
+                    .background(
+                        Circle()
+                            .opacity(0.7)
+                            .shadow(radius: 5)
                 )
+                Spacer()
+            }
             Text(appModel.portfolio.name)
                 .font(Montserrat.bold.font(size: 17))
+                
+                //Montserrat.bold.font(size: 17)
                 .padding(.top, 8)
             Text(appModel.portfolio.role)
                 .font(Montserrat.mediumItalic.font(size: 18))
