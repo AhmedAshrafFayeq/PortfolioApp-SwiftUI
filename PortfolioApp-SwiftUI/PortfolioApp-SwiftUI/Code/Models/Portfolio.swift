@@ -10,7 +10,7 @@ import Foundation
 //mark: -Skill
 
 //Identifiable helps to use model in foreach loop, it requires a variable name id
-struct skill: Identifiable {
+struct Skill: Identifiable {
     let id, skillName, image: String
 }
 
@@ -22,6 +22,6 @@ struct Experience: Identifiable {
 //mark: -Portfolio
 struct Portfolio {
     let name, role, description, location: String
-    let skills: [skill]
+    let skills: [Skill]
     let experiences: [Experience]
 }
