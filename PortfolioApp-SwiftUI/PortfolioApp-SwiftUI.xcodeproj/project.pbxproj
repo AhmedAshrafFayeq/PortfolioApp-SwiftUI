@@ -31,6 +31,7 @@
 		2DEB702F278EF9D6001F8D89 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB702E278EF9D6001F8D89 /* SkillView.swift */; };
 		2DEB7032278EFBFA001F8D89 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7031278EFBFA001F8D89 /* SkillsView.swift */; };
 		2DEB7035278F07AA001F8D89 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7034278F07AA001F8D89 /* ExperienceView.swift */; };
+		2DEB7038278F0A9C001F8D89 /* ExperiencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7037278F0A9C001F8D89 /* ExperiencesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		2DEB702E278EF9D6001F8D89 /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
 		2DEB7031278EFBFA001F8D89 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
 		2DEB7034278F07AA001F8D89 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		2DEB7037278F0A9C001F8D89 /* ExperiencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				2DEB702E278EF9D6001F8D89 /* SkillView.swift */,
 				2DEB7031278EFBFA001F8D89 /* SkillsView.swift */,
 				2DEB7034278F07AA001F8D89 /* ExperienceView.swift */,
+				2DEB7037278F0A9C001F8D89 /* ExperiencesView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				2DEB6FE7278ED036001F8D89 /* PortfolioView.swift in Sources */,
 				2DEB7035278F07AA001F8D89 /* ExperienceView.swift in Sources */,
 				2DEB7010278ED8DC001F8D89 /* ColorExtensions.swift in Sources */,
+				2DEB7038278F0A9C001F8D89 /* ExperiencesView.swift in Sources */,
 				2DEB702C278EEBB2001F8D89 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

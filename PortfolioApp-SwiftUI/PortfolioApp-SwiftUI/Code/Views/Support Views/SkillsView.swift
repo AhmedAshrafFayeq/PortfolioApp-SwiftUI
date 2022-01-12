@@ -47,7 +47,7 @@ struct SkillsView: View {
 struct SkillsView_Previews: PreviewProvider {
     static var previews: some View {
         GeometryReader{ proxy in
-            SkillsView(skills: AppModel().portfolio.skills, width: 380)
+            SkillsView(skills: AppModel().portfolio.skills, width: 400)
                 .padding(18)
         }
     }

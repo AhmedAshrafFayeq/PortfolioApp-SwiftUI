@@ -22,6 +22,10 @@ struct PortfolioView: View {
                 VStack(alignment: .leading, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
                     
                     HeaderView(appModel: appModel)
+                    SkillsView(skills: appModel.portfolio.skills, width: UIScreen.main.bounds.width - 48)
+                        .padding(.top, 32)
+                    ExperiencesView(experiences: appModel.portfolio.experiences)
+                        .padding(.top, 32)
                     
                 }).padding(24)
             })
