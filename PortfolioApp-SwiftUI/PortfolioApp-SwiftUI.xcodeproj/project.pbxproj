@@ -30,6 +30,7 @@
 		2DEB702C278EEBB2001F8D89 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB702B278EEBB2001F8D89 /* HeaderView.swift */; };
 		2DEB702F278EF9D6001F8D89 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB702E278EF9D6001F8D89 /* SkillView.swift */; };
 		2DEB7032278EFBFA001F8D89 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7031278EFBFA001F8D89 /* SkillsView.swift */; };
+		2DEB7035278F07AA001F8D89 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB7034278F07AA001F8D89 /* ExperienceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		2DEB702B278EEBB2001F8D89 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		2DEB702E278EF9D6001F8D89 /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
 		2DEB7031278EFBFA001F8D89 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		2DEB7034278F07AA001F8D89 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				2DEB702B278EEBB2001F8D89 /* HeaderView.swift */,
 				2DEB702E278EF9D6001F8D89 /* SkillView.swift */,
 				2DEB7031278EFBFA001F8D89 /* SkillsView.swift */,
+				2DEB7034278F07AA001F8D89 /* ExperienceView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				2DEB6FE5278ED036001F8D89 /* SceneDelegate.swift in Sources */,
 				2DEB7032278EFBFA001F8D89 /* SkillsView.swift in Sources */,
 				2DEB6FE7278ED036001F8D89 /* PortfolioView.swift in Sources */,
+				2DEB7035278F07AA001F8D89 /* ExperienceView.swift in Sources */,
 				2DEB7010278ED8DC001F8D89 /* ColorExtensions.swift in Sources */,
 				2DEB702C278EEBB2001F8D89 /* HeaderView.swift in Sources */,
 			);
